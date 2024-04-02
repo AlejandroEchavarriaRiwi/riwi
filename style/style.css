@@ -10,6 +10,7 @@ body{
     background-image: url(/media/holy-week-good-friday-background-free-vector.jpg);    
 }
 header{
+    color: antiquewhite;
     margin-top: 30px;
     text-align: center;
 }
@@ -21,6 +22,7 @@ header{
     flex-wrap: wrap;
 }
 .cuadrotexto{
+    color: antiquewhite;
     padding: 20px;
     font-size: x-large;
 }
@@ -31,11 +33,14 @@ header{
     flex-wrap: wrap;
 }
 .cuadro{
+    color: antiquewhite;
     margin-top: 20px;
     background-color: rgba(107, 1, 131, 0.534);
     border-radius: 10px;
     padding: 10px;
-    font-size: xx-large;
+    padding-top: 40px;
+    font-size: x-large;
+    min-width: 300px;
     width: 30%;
     align-items: center;
     display: flex;
@@ -44,5 +49,7 @@ header{
 }
 .cuadro img{
     border-radius: 10px;
+    margin-top: 10px;
     width: 80%;
+    max-height: 70%;
 }
