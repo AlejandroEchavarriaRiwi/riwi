@@ -1,22 +1,48 @@
-.{
+*{
     margin: 0px;
     padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+body{
+    background-image: url(/media/holy-week-good-friday-background-free-vector.jpg);    
 }
 header{
+    margin-top: 30px;
     text-align: center;
 }
 .cuadroprincipal{
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+.cuadrotexto{
+    padding: 20px;
+    font-size: x-large;
 }
 .cuadroimagenes{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .cuadro{
-    background-color: aquamarine;
+    margin-top: 20px;
+    background-color: rgba(107, 1, 131, 0.534);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: xx-large;
     width: 30%;
-    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cuadro img{
+    border-radius: 10px;
+    width: 80%;
 }
