@@ -1,0 +1,22 @@
+.{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+}
+.cuadroprincipal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cuadroimagenes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cuadro{
+    background-color: aquamarine;
+    width: 30%;
+    height: 200px;
+}
